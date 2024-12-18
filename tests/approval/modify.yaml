@@ -1,0 +1,4 @@
+approvers:
+  - name: aioptuspackage/renamer
+    tools: "add*"
+    function_name: newname

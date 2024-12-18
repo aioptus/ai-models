@@ -1,0 +1,20 @@
+[project]
+name = "aioptuspackage"
+version = "0.1"
+description = "aioptus Extension Package"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "aioptus"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.entry-points.aioptus]
+aioptuspackage = "aioptuspackage._registry"
+

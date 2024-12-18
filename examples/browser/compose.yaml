@@ -1,0 +1,4 @@
+services:
+  default:
+    image: aioptus-web-browser-tool
+    init: true

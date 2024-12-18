@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "checkJs": true,
+      "target": "es5", // or a different target that suits your needs
+      "downlevelIteration": true,
+      "lib": ["es2019", "dom"], // Add "es2017" or later
+      "esModuleInterop": true
+    },
+    "exclude": ["**/*.mjs"]
+}
